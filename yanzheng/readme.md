@@ -1,7 +1,7 @@
-### video 弹出层插件
-# 使用fancybox.pack.js 和 fancybox-media.js 
-# 使用 fancybox.css + 图片
-# 语法 
+## video 弹出层插件
+ 使用fancybox.pack.js 和 fancybox-media.js 
+ 使用 fancybox.css + 图片
+ 语法 
  ```
  $('.fancybox-media')
         .attr('rel', 'media-gallery')
@@ -15,11 +15,12 @@
             }
         });
  ```
+ ## 图片放大浏览插件 弹框 jquery.prettyPhoto.js
+ ```
+ $("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000,autoplay:false,social_tools:"",default_width:600});
+ ```
  ==
- ### |图片放大浏览插件 弹框 jquery.prettyPhoto.js
- `$("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000,autoplay:false,social_tools:"",default_width:600});`
- ==
- ### |图片轮播插件 jquery.carouFredSel.min.js [demo 地址](http://coolcarousels.frebsite.nl/c/66/)
+ ## 图片轮播插件 jquery.carouFredSel.min.js [demo 地址](http://coolcarousels.frebsite.nl/c/66/)
  ```
  $('.carful ul').carouFredSel({
 	items: 4,
