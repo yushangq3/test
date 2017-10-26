@@ -1,6 +1,8 @@
 ## video 弹出层插件
  >使用fancybox.pack.js 和 fancybox-media.js 
+ >
  >使用 fancybox.css + 图片
+ >
  >语法 
  ```
  $('.fancybox-media')
