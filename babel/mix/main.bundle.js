@@ -761,7 +761,11 @@ var getJSON = function getJSON(url) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 getJSON("posts.json").then(function (json) {
+=======
+getJSON("/posts.json").then(function (json) {
+>>>>>>> c71c4969237aebfef237e78a26c0a4c60c463b6c
 =======
 getJSON("/posts.json").then(function (json) {
 >>>>>>> c71c4969237aebfef237e78a26c0a4c60c463b6c

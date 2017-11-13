@@ -22,11 +22,7 @@ var getJSON = function(url) {
   return promise;
 };
 
-<<<<<<< HEAD
 getJSON("posts.json")
-=======
-getJSON("/posts.json")
->>>>>>> c71c4969237aebfef237e78a26c0a4c60c463b6c
   .then(function(json) {
     console.log('Contents: ' + json);
   }, function(error) {
