@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<ul>
+			<li>click</li>
+		</ul>
+		<script type="text/javascript">
+			var ul = document.getElementsByTagName('ul')[0];
+			var li = document.getElementsByTagName('li')[0];
+			document.addEventListener('click',function(e){console.log('document clicked')},true);//第三个参数为true使用捕获 false使用冒泡 空在谷歌使用冒泡
+			ul.addEventListener('click',function(e){
+				e.stopPropagation();//阻止事件的传播
+				console.log('ul clicked')},true);
+			li.addEventListener('click',function(e){
+				console.log('li clicked')
+			},true);
+			window.onload=function(){
+				console.log('window load')
+			}
+			
+		</script>
+	</body>
+</html>
